@@ -4,15 +4,16 @@ typedef String PercentageModifier(double percentage);
 
 class CircularSliderAppearance {
   static const double _defaultSize = 150.0;
-  static const double _defaultStartAngle = 150.0;
-  static const double _defaultAngleRange = 240.0;
+  static const double _defaultStartAngle = 0.0;
+  static const double _defaultAngleRange = 360.0;
 
   static const Color _defaultTrackColor = Color.fromRGBO(220, 190, 251, 1.0);
 
   static const List<Color> _defaultBarColors = [
-    Color.fromRGBO(30, 0, 59, 1.0),
-    Color.fromRGBO(236, 0, 138, 1.0),
-    Color.fromRGBO(98, 133, 218, 1.0),
+    
+    Color.fromRGBO(210, 138, 104, 1.0),
+    
+    
   ];
 
   static const double _defaultGradientStartAngle = 0.0;
